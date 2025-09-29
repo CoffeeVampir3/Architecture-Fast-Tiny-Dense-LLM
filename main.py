@@ -13,7 +13,7 @@ from safetensors.torch import save_model, load_model
 from modeling.model import CoolLanguageModelWowExclamationMark, ModelConfig
 from modeling.zRMSNorm import ZeroCenteredRMSNorm
 
-torch.autograd.set_detect_anomaly(True)
+#torch.autograd.set_detect_anomaly(True)
 torch.set_float32_matmul_precision('high')
 
 class TextDataset(Dataset):
